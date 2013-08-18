@@ -1,0 +1,150 @@
+body{
+	height: 100%;
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, Helvetica, serif;
+	font-size: 1.2em/1.5pt;
+	color: #333;
+	background-color: #f1f1f1;
+	margin: 0 20px;
+}
+
+#canvas{
+	margin: 5px 0px;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'georgia', verdana, tahoma, 'times new roman', serif;
+	font-weight: normal;
+	background-color: transparent;
+	color: #111;
+	font-size: 2.2em/1.5pt;
+	margin: 0 0 4px 0;
+}
+
+h1{
+	margin-bottom: 8px;
+}
+
+h2{
+	font-size: 2.2em/1.5pt;
+}
+
+#header{
+	margin: 0 -20px;
+	padding: 0 20px;
+}
+
+.bar{
+	margin: 2px -20px;
+	background-color: #9cf;
+	border-width: 1px 0px;
+	border-style: solid;
+	border-color: #999;
+	padding: 1px 25px;
+}
+
+a,a:link,a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.but{
+	background-color: #fdfdfd;
+	padding: 3px 15px 3px 15px;
+	border-color: #ddd #666 #666 #ddd;
+	border-style: solid;
+	border-width: 1px;
+}
+a.but:hover{
+	border-color: #666 #ddd #ddd #666;
+	padding: 3px 15px 3px 15px;
+}
+
+.bar p{
+margin: 0 0 0 0;
+}
+
+table{
+	margin: 10px 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 1px 5px;
+	vertical-align: top;
+}
+
+tr.options{
+	background-color: #9cf;
+}
+
+tr.options td{
+	text-align: center;
+	color: #000;
+}
+
+tr.row1{
+	background-color: #fff;
+}
+tr.row0{
+	background-color: #fff;
+}
+
+td.c{
+	text-align:center;
+}
+td.bg{
+	background-color: #9cf;
+}
+
+.text{
+	background-color: #fdfdfd;
+	padding: 2px 10px;
+	color: #036;
+}
+
+select{
+	font-family: Tahoma, Verdana, Arial, Trebuchet MS, Helvetica, serif;
+	font-size: 90%;
+}
+
+input, textarea{
+	border: 1px solid #ccc;
+	font-family: Tahoma, Verdana, Arial, Helvetica, 'Trebuchet MS', serif;
+	color: #333;
+	padding: 1px 1px 1px 4px;
+	background-color: #fff;
+}
+
+input.radio{
+	background-color: transparent;
+	border: none;
+}
+
+input.button{
+	border: none
+}
+
+textarea{
+	width: 400px;
+}
+
+textarea.sm{
+	height: 70px;
+}
+
+textarea.bg{
+	height: 150px;
+}
+
+.mtop15{margin-top: 15px;}
+.mtop5{margin-top: 5px;}
+.b{font-weight: bold;}
+img{border:none;}
+.floatl{float: left;}
+.floatr{float: right; text-align: right;}
+.hide{display: none;}
